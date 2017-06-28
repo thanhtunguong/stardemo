@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="@dimen/large_dimen"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnYoutubeScanner"
+        android:layout_margin="@dimen/margin_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomButtonSolid"
+        android:drawableLeft="@drawable/ic_youtube_24dp"
+        android:text="@string/btnMenuScannerCaption"/>
+
+    <Button
+        android:id="@+id/btnS3VideoPlayer"
+        android:layout_margin="@dimen/margin_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomButtonSolid"
+        android:drawableLeft="@drawable/ic_play_36dp"
+        android:text="@string/btnMenuS3PlayerCaption"/>
+
+    <Button
+        android:id="@+id/btnVRViewer"
+        android:layout_margin="@dimen/margin_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomButtonSolid"
+        android:drawableLeft="@drawable/ic_glasses"
+        android:text="@string/btnMenuVRViewCaption"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">StarDemo</string>
+    <string name="title_activity_scan">ScanActivity</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="ok_cap">Ok</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="btnMenuScannerCaption">QR code &amp; Bar code scanner</string>
+    <string name="btnMenuS3PlayerCaption">S3 video player</string>
+    <string name="btnMenuVRViewCaption">VR viewer</string>
+    <string name="title_activity_virtual_video">VirtualVideoActivity</string>
+
+    <string name="source">Source &lt;a href="https://en.wikipedia.org/wiki/Gorilla">Wikipedia&lt;/a></string>
+    <string name="test_video_url">https://s3-ap-southeast-1.amazonaws.com/hungvq123/YouTube+-+Nh+nh+bng+dim+-.flv.avi</string>
+</resources>
